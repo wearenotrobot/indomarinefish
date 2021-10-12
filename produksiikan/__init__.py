@@ -94,7 +94,7 @@ def show_data(result):
     if result is None:
         print('Tidak bisa menemukan data')
 
-    print('Fish type and total production (Kg)')
+    print('Fish name and total production (Kg)')
     print(result['type_fish1'], result['production1'])
     print(result['type_fish2'], result['production2'])
     print(result['type_fish3'], result['production3'])
@@ -105,3 +105,8 @@ def show_data(result):
     print(result['type_fish8'], result['production8'])
     print(result['type_fish9'], result['production9'])
     print(result['type_fish10'], result['production10'])
+
+if __name__ == '__main__':
+    print('Aplikasi Utama')
+    result = data_extraction()
+    show_data(result)

@@ -12,7 +12,8 @@ setuptools.setup(
     version="0.1",
     author="mizan toyyibun",
     author_email="untirta.mizan62@gmail.com",
-    description="A small example package",
+    description="This package will give us information about the marine fish production"
+                "in Indonesia",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/wearenotrobot/indomarinefish",
