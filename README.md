@@ -10,12 +10,13 @@ This package will use BeautifulSoup4 and Request, to produce output in the form 
 This package is ready to be used in web or mobile applications.
 
 ## How to use
+```
+import produksiikan
 
-    import produksiikan
+if __name__ == '__main__':
+    result = produksiikan.data_extraction()
+    produksiikan.show_data(result)
+```
 
-    if __name__ == '__main__':
-        result = produksiikan.data_extraction()
-        produksiikan.show_data(result)
-        
 # Author
 mizan toyyibun

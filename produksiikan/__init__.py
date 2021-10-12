@@ -106,6 +106,6 @@ def show_data(result):
     print(result['type_fish10'], result['production10'])
 
 if __name__ == '__main__':
-    print('Aplikasi Utama')
+    print('Main Application')
     result = data_extraction()
     show_data(result)
