@@ -9,7 +9,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="indonesian-fishproduction",
-    version="0.1.2.2",
+    version="0.1.2.3",
     author="mizan toyyibun",
     author_email="untirta.mizan62@gmail.com",
     description="This package will give us information about the marine fish production"
